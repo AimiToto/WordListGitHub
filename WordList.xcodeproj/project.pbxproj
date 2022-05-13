@@ -16,6 +16,14 @@
 		42B92584282D76C70012DF08 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B92583282D76C70012DF08 /* WordListTests.swift */; };
 		42B9258E282D76C70012DF08 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9258D282D76C70012DF08 /* WordListUITests.swift */; };
 		42B92590282D76C70012DF08 /* WordListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B9258F282D76C70012DF08 /* WordListUITestsLaunchTests.swift */; };
+		42B925A0282D770B0012DF08 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B9259D282D770B0012DF08 /* word_blank.png */; };
+		42B925A1282D770B0012DF08 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B9259E282D770B0012DF08 /* fin.png */; };
+		42B925A2282D770B0012DF08 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B9259F282D770B0012DF08 /* title_logo.png */; };
+		42B925A4282D7EA30012DF08 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B925A3282D7EA30012DF08 /* QuestionViewController.swift */; };
+		42B925A6282D7EBB0012DF08 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B925A5282D7EBB0012DF08 /* FinishViewController.swift */; };
+		42B925AA282D7EED0012DF08 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B925A9282D7EED0012DF08 /* AddViewController.swift */; };
+		42B925AC282D7F410012DF08 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B925AB282D7F410012DF08 /* ListTableViewController.swift */; };
+		42B925AE282D8B160012DF08 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B925AD282D8B160012DF08 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		42B92589282D76C70012DF08 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B9258D282D76C70012DF08 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		42B9258F282D76C70012DF08 /* WordListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42B9259D282D770B0012DF08 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		42B9259E282D770B0012DF08 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		42B9259F282D770B0012DF08 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		42B925A3282D7EA30012DF08 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		42B925A5282D7EBB0012DF08 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		42B925A9282D7EED0012DF08 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		42B925AB282D7F410012DF08 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		42B925AD282D8B160012DF08 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +121,13 @@
 				42B92572282D76C20012DF08 /* Main.storyboard */,
 				42B92575282D76C60012DF08 /* Assets.xcassets */,
 				42B92577282D76C60012DF08 /* LaunchScreen.storyboard */,
+				42B9259C282D770B0012DF08 /* WordList素材 */,
 				42B9257A282D76C60012DF08 /* Info.plist */,
+				42B925A3282D7EA30012DF08 /* QuestionViewController.swift */,
+				42B925A5282D7EBB0012DF08 /* FinishViewController.swift */,
+				42B925A9282D7EED0012DF08 /* AddViewController.swift */,
+				42B925AB282D7F410012DF08 /* ListTableViewController.swift */,
+				42B925AD282D8B160012DF08 /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -125,6 +147,16 @@
 				42B9258F282D76C70012DF08 /* WordListUITestsLaunchTests.swift */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		42B9259C282D770B0012DF08 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				42B9259D282D770B0012DF08 /* word_blank.png */,
+				42B9259E282D770B0012DF08 /* fin.png */,
+				42B9259F282D770B0012DF08 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B925A0282D770B0012DF08 /* word_blank.png in Resources */,
+				42B925A2282D770B0012DF08 /* title_logo.png in Resources */,
 				42B92579282D76C60012DF08 /* LaunchScreen.storyboard in Resources */,
 				42B92576282D76C60012DF08 /* Assets.xcassets in Resources */,
+				42B925A1282D770B0012DF08 /* fin.png in Resources */,
 				42B92574282D76C20012DF08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B925A6282D7EBB0012DF08 /* FinishViewController.swift in Sources */,
+				42B925AE282D8B160012DF08 /* ListTableViewCell.swift in Sources */,
 				42B92571282D76C20012DF08 /* ViewController.swift in Sources */,
+				42B925AA282D7EED0012DF08 /* AddViewController.swift in Sources */,
 				42B9256D282D76C20012DF08 /* AppDelegate.swift in Sources */,
+				42B925A4282D7EA30012DF08 /* QuestionViewController.swift in Sources */,
 				42B9256F282D76C20012DF08 /* SceneDelegate.swift in Sources */,
+				42B925AC282D7F410012DF08 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
